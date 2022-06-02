@@ -1,0 +1,1381 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'inter';
+    
+}
+p{
+    margin: 0;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+
+    
+}
+
+
+/* header */
+header{
+   height: 290px;
+   background-color: #0F71F2;
+    
+}
+.cabecalho{
+    display: flex;
+    height: 200px;
+    background-color: #0F71F2;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.logo{
+height: 75px;
+margin-right: 3vw;
+}
+.icone-menu{
+    height: 40px;
+    filter: invert(100%);
+    display: none;
+}
+
+.icone-menu2{
+    height: 40px;
+    filter: invert(100%);
+    display: none;
+}
+.busca1{
+    background-image: url(./assets/img/lupablack.png);
+    background-position:1%;
+    background-size: 5%;
+    background-repeat: no-repeat;
+    font-size: 1.1rem;
+    height: 50px;
+    width: 40%;
+    
+   
+}
+
+.cabecalho input {
+    padding: 0 0 0 40px;
+}
+.conta{
+    display: flex;
+    width: 12%;
+    justify-content: space-around;
+   
+}
+.conta a img{
+    height: 57px;
+    width: 56px;
+    border-radius: 50%;
+}
+/* final do header */
+
+
+/* Menu */
+.menu{
+    display: flex;
+    height: 90px;
+    padding: 0 50%;
+    background-color: #0B2649;
+    justify-content:center;
+    align-items: center;
+    
+}
+.menu a{
+    margin:0 2.7vh;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+
+.busca2{
+    display: none;
+    height: 50px;
+    
+   
+   
+
+}
+
+
+#links{
+    display: flex;
+}
+
+/* .busca2{
+    display: none;
+    background-image: url(./assets/img/lupablack.png);
+    background-position:1%;
+    background-size: 5%;
+    background-repeat: no-repeat;
+    font-size: 1.1rem;
+    height: 50px;
+    width: 40%;
+    
+   
+} */
+/* final do menu*/
+
+
+
+/* banner */
+.banner{
+    height: 400px;
+    background-image: url(./assets/img/bannergamemaniaoriginal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color:white;
+    text-transform: uppercase
+    
+}
+    
+.container-banner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  
+    
+   
+    
+    
+}
+
+
+.conteudo-banner1{
+    display: flex;
+    flex-wrap: wrap;
+    height:200px ;
+    width: 410px;
+    padding: 1vw 1vw;
+    background-color:#0f71f2e2;
+    border-radius: 20px;
+    margin-top: 1vw;
+   
+}
+
+.conteudo-banner1 h1{
+    margin: 0 auto;
+}
+
+
+.container-banner a{
+    display: flex;
+    margin: 0 auto;
+    align-self:flex-end;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color:#0F71F2;
+    width: 8vw;
+    margin-bottom: 1vw;
+    
+    
+} 
+.btn-primary{
+    width: 15vw;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.conteudo-banner1 h1{
+    font-weight: bold;
+
+}
+
+.conteudo-banner1 p{
+    font-size: 1rem;
+    
+
+}
+
+/* FINAL  banner */
+
+
+
+
+
+
+
+
+#idslide-carrosel::-webkit-scrollbar{
+    background: transparent; 
+
+}
+
+#idslide-carrosel{
+    display: flex;
+    overflow-x:auto;
+    scroll-snap-type: x mandatory;  
+    -webkit-overflow-scrolling:touch; 
+    text-transform: uppercase;
+  
+    
+}
+/* #idslide-carrosel img {
+    height:160px ;
+}    */
+
+.circulo{
+    scroll-snap-align:center;
+    margin:0 20px;
+
+
+}
+h2{
+    pointer-events:fill;
+      font-size: 1.5rem;
+      margin-top: 0.5vw;
+}
+.slide-carrosel{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    
+    
+     
+}
+.circulo>.circulo a{
+    margin:0 10px;
+    scroll-snap-align: start;
+    
+}
+.slide-carrosel img{
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.slide-carrosel div h2{
+    font-weight:900;
+    text-align: center;
+    color:#928F8F;
+    justify-content: space-between;
+}
+
+
+/* Final slide circulo */
+
+
+
+/* slide retangulo */
+
+/* .slide-retangulo-1{
+    
+} */
+
+.carousel-control-prev{
+    filter: invert(100%);
+}
+.carousel-control-next{
+    filter: invert(100%);
+}
+
+.imgRetang1{
+    
+    height: 546px;
+    margin-bottom: -5px;
+
+} 
+
+
+.box{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #0b2344;
+    align-items: center;
+    justify-content: center;
+    
+}
+.slide-retangulo-1 h2{
+    font-size:2rem ;
+    color:#FFFFFF;
+    
+}
+
+
+.carousel-inner h2{
+    font-size: 1.7rem;
+
+}
+
+/* Final slide retangulo */
+
+
+
+
+
+/* produtos */
+.produtos-BG{
+    height: 1550px;
+    color: #FFFFFF;
+    background-color: #0A4FA9;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 2%;
+    padding: 25px 20px;
+}
+.produtos-BG h2{
+    font-size:2.2rem ;
+    margin-bottom: 50px;
+}
+
+
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.produto img{
+    position: relative;
+    height: 300px;
+    width: 265px;
+    margin-top: 30px;
+    border-end-end-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bgimage{
+    position:relative;
+    bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    border-end-end-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: -40px;
+}
+
+
+.produto h1{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-top: 10px;
+    
+}
+
+.produto button{
+    height: 45px;
+    width: 242px;
+    margin-bottom: 50px;
+    background-color: #031833;
+    color:#FFFFFF;
+    font-size:1.5rem ;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Final produtos */
+
+
+
+/* footer */
+footer{
+    height: 200px;
+    background-color: #181818;
+    color:#FFFFFF;
+    align-items: center;
+}
+.ft{
+    display: flex;
+    height:100% ;
+    margin-top: 150px;
+    background-color: #181818;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* .endereco{
+    margin-left: 3vw;
+}
+.sociais{
+    margin-right: 3vw;
+} */
+
+.sociais p{
+    margin-left: 4vh;
+}
+.sociais img{
+    margin:10px 1vh;
+    height: 40px;
+}
+
+
+
+/* FINAL footer */
+
+
+/* PAGINA LOGIN CSS */
+
+
+
+
+.login-BG{
+    
+    height: 700px;
+    color: #FFFFFF;
+    background-color: #0A4FA9;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 2%;
+    padding: 5% 20px;
+
+}
+
+.conteudo-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logar{
+    height: 40px;
+    width: 30%;
+}
+.password{
+    height: 40px;
+    margin-top: 0.5vw;
+    width: 30%;
+}
+
+.bt-logar{
+    display: flex;
+    height: 50px;
+    width: 18vw;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50%;
+ 
+}
+
+
+
+
+
+.login-BG h2{
+    font-size:2.2rem ;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+.bt-logar{
+    display: flex;
+    height: 50px;
+    width: 18vw;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.cadastrar{
+    font-size:1.5rem;
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .container-grid{
+        
+        width: 95vw;  
+       /*  funciona melhor pra responsividade*/
+        
+    
+    }
+    .menu a{
+        font-size: 1.2rem;
+    }
+    .logo{
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+    #img-login{
+        margin-right: 1vw;
+    }
+
+
+    .conteudo-banner1{
+       
+       
+        padding: 1vw 1vw;
+        align-content: center;
+        
+       
+       
+    }
+    .btn-primary{
+        width: 15vw;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    
+    #idslide-carrosel img {
+        height:140px ;
+    }   
+    
+
+
+
+    .produtos-BG{
+        height: 2000px;
+        
+    }
+    .produto{
+        margin-right: 25px;
+    }
+
+    .conta{
+        width: 15%;
+    }
+
+
+
+    /* pagina LOGIN \/ */
+    .login-BG{
+    
+        height: 700px;
+        color: #FFFFFF;
+        background-color: #0A4FA9;
+        margin-top: 10px;
+        margin-bottom: 5vw;
+        text-align: center;
+        border-radius: 2%;
+        padding: 5% 20px;
+    
+    }
+    .login-BG h3{
+        font-size:1.2rem ;
+      
+    }
+    .login-BG h4{
+        font-size:1.2rem ;
+       
+    }
+  
+  
+ 
+}
+
+@media screen and (max-width:1100px) {
+   .ft{
+       justify-content: space-around;
+   }
+   
+  .menu-ativo{
+      display:flex;
+  }
+
+
+}
+
+@media screen and (max-width:1085px) {
+  
+ 
+    .menu a{
+        margin:0 2.7vh;
+        font-size: 1.0rem;
+       
+    }
+}
+
+
+@media screen and (max-width:1070px) {
+/* Pagina de login  */
+
+.login-BG{
+    
+    height: 550px;
+    color: #FFFFFF;
+    background-color: #0A4FA9;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 2%;
+    padding: 5% 20px;
+
+}
+.logar{
+    height: 40px;
+    width: 50vw;
+    margin-top: 2vw;
+}
+.password{
+    height: 40px;
+    margin-top: 0.5vw;
+    width: 50vw;
+}
+
+.bt-logar{
+    display: flex;
+    height: 50px;
+    width: 18vw;
+    margin-top: 20px;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50%;
+ 
+}
+.conteudo-login input{
+    font-size: 0.5rem;
+}
+
+@media screen and (max-width:1000px) {
+  
+    .busca1{
+        display: none;
+    }
+    .icone-menu2{
+        
+        display: flex;
+    
+        
+    }
+    .menu{
+        display: flex;
+        position: relative;
+    }
+    #links{
+        display: none;
+        position: absolute;
+        padding: 20px;
+        top: 100%;
+        right: 0px;
+        /* order:-1; */
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0B2649;
+
+ 
+
+    }
+
+    
+    .busca2{
+        display: flex;
+        padding: 0 10vw 0 1vw;
+        order: -1;
+    }
+
+    .menu .icone-menu2{
+        margin-left: 30vw;
+    } 
+}
+
+@media screen and (max-width:957px) {
+    .produtos-BG{
+        height: 3000px;
+        border-radius: 0.2%;
+        
+    }
+}
+@media screen and (max-width:900px) {
+    .conteudo-banner1{
+        height:200px;
+        width:410px ;
+        font-size: 0.1rem;
+        padding: 1vw 1vw;
+    
+    
+    }
+    .btn-primary{
+        height: 50px;
+        width: 137px;
+        
+    }
+
+
+
+
+}
+@media screen and (max-width:744px) {
+
+ 
+
+    .conta{
+        width: 20%;
+        justify-content:space-between ;
+    }
+    .conta a img{
+        height: 45px;
+        width: 45px;
+    }
+  
+   
+    .conteudo-banner1{
+        height:150px;
+        width:310px ;
+        
+        
+    }
+    .conteudo-banner1 h1{
+        font-size:1.5rem;
+       
+    }
+    .conteudo-banner1 p{
+        margin:0 auto;
+        font-size:0.7rem;
+           
+    }
+
+    .imgRetang1{
+    
+        height: 300px;
+        margin-bottom: -5px;
+    
+    } 
+    .box h2{
+        font-size: 1.2rem;
+    }
+   
+    .busca2{
+     
+        padding: 0 8vw 0 2vw;
+    }
+
+    
+
+
+   
+    
+    
+
+}
+@media screen and (max-width:729px) {
+
+    .produtos-BG{
+        
+        border-radius: 0.1%;
+        margin-bottom: 150px;
+    }
+    .busca2{
+        
+        margin-left:3vw; 
+    }
+
+    .banner{
+
+        background-image: url(./assets/img/bannergamemaniaoriginal.png);
+        height:350px;
+        background-size:cover;
+    }
+}
+
+@media screen and (max-width:653px) {
+
+    .produtos-BG{
+        height: 5800px;
+        border-radius: 0.1%;
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width:550px) {
+ 
+
+    .logo{
+        height: 50px;
+    }
+    .conta{
+        width: 20%;
+    }
+    .conta a img{
+        height: 31px;
+        width: 31px;
+
+    
+    }
+
+    #links{
+        display: none;
+    }
+    .busca1{
+        display: none;
+    }
+    .busca2{
+        display:flex;
+        padding: 0 4vw 0 1vw;
+    }
+
+    
+    .menu .icone-menu2{
+        margin-left: 20vw;
+    } 
+
+
+    .banner{
+        background-image: url(./assets/img/bannergamemaniaoriginal.png);
+        height:250px;
+        background-size:cover;
+    }
+    .conteudo-banner1{
+        height:100px;
+        width:270px ;
+        
+        
+    }
+
+
+
+
+    .box h2{
+        font-size: 0.9rem;
+    }
+    .produtos-BG{
+    height: 5800px;
+    border-radius: 0.1%;
+    margin-bottom: 150px;
+    }
+
+    footer{
+        height: 300px;
+       
+        align-content: center;
+        
+    }
+    .ft{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+
+    .ft .endereco{
+        margin-bottom: 5vh;
+    }
+    
+
+    .bt-logar{
+        display: flex;
+        height: 50px;
+        width: 40vw;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:50%;
+     
+    }
+
+
+
+
+
+
+    .logar{
+        height: 40px;
+        width: 70vw;
+        margin-top: 2vw;
+    }
+    .password{
+        height: 40px;
+        margin-top: 0.5vw;
+        width: 70vw;
+    }
+    
+    /* .bt-logar{
+        display: flex;
+        height: 50px;
+        width: 18vw;
+        margin-top: 20px;
+        font-size: 1rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:50%;
+     
+    } */
+    .conteudo-login input{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+   
+    .container-grid{
+        width: 95vw;
+    
+    }
+
+    header{
+       height: 200px;
+       align-items:center;
+     
+    }
+
+    
+    .cabecalho{
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .logo{
+        height: 40px;
+
+    }
+
+    .conta{
+        width: 20%;
+        order: -2;
+    }
+    .conta a img{
+        height: 25px;
+        width: 25px;
+
+    
+    }
+
+    .busca1{
+         display: flex;
+         height: 48px;
+         width: 90%;
+         border-radius: 20px;
+    } 
+    .busca2{
+        display:none;
+    }
+
+
+    .busca1{
+        display: flex;
+    }
+  
+    #links{
+        background-color: #0F71F2;
+        border:solid 1px black;
+        border-end-end-radius: 10%;
+        border-bottom-left-radius: 10%;
+    }
+    .menu{
+        display: flex;
+        background-color: #0F71F2;
+        height: 0;
+    }
+    .icone-menu{
+     display: flex;
+     margin-right: 1vw;
+     height: 30px;
+     
+    }
+    .icone-menu2{
+        display: none;
+     
+        
+    }
+    #idslide-carrosel img {
+        height:140px ;
+    }   
+    .circulo h2{
+        font-size: 1.2rem;
+    }
+
+    /* .banner{
+        background-image: url(./assets/img/bannergamemaniaoriginal.png);
+        height:220px;
+        background-size:cover;
+    } */
+
+
+    .conteudo-banner1{
+        height:100px;
+        width:210px ;
+        
+        
+    }
+
+    
+    .conteudo-banner1 h1{
+        font-size:1.5rem;
+       
+    }
+    .conteudo-banner1 p{
+        margin:0 auto;
+        font-size:0.5rem;
+           
+    }
+
+
+    .imgRetang1{
+    
+        height: 200px;
+        margin-bottom: -5px;
+    
+    } 
+    
+    .box h2{
+        font-size: 0.7rem;
+    }
+
+   
+
+}
+
+@media screen and (max-width:376px) {
+    .conta{
+        width: 20%;
+    }
+    .logo{
+        height: 30px;
+       
+    }
+}
+
+@media screen and (max-width:360px) {
+   
+  
+    .cabecalho{
+        height: 100%;
+        
+    }
+ 
+    .produto{
+        margin-right: 0px;
+    }
+
+}
+
+
+@media screen and (max-width:330px) {
+
+
+.produto img{
+    position: relative;
+    height: 200px;
+    width: 177px;
+    margin-top: 30px;
+    border-end-end-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bgimage{
+    position:relative;
+    bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    border-end-end-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: -40px;
+}
+
+
+.produto h1{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 10px;
+    
+}
+
+.produto button{
+    height: 45px;
+    width: 177px;
+    margin-bottom: 50px;
+    background-color: #031833;
+    color:#FFFFFF;
+    font-size:1.5rem ;
+    text-transform: uppercase;
+}
+
+.produtos-BG{
+    height: 4500px;
+}
+
+}
+
+@media screen and (max-width:300px) {
+    .logo{
+        margin-left: 12vw;
+    }
+
+
+    .conteudo-banner1{
+        height:100px;
+        width:180px ;
+        
+        
+    }
+    .conteudo-banner1 h1{
+        font-size:1rem;
+       
+    }
+    .conteudo-banner1 p{
+        margin:0 auto;
+        font-size:0.4rem;
+           
+    }
+
+    footer{
+        font-size: 0.8rem;
+    }
+    .sociais p{
+        margin-left: 4vh;
+    }
+    .sociais img{
+        margin:10px 1vh;
+        height: 30px;
+    }
+    .produtos-BG h2{
+        font-size: 1rem;
+    }
+
+    .produto img{
+        position: relative;
+        
+        width: 80vw;
+        margin-top: 30px;
+        border-end-end-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    
+    .bgimage{
+        position:relative;
+        bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+       
+        background: rgba(0, 0, 0, 0.6);
+        justify-content: center;
+        border-end-end-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-bottom: -40px;
+    }
+    
+    
+    .produto h1{
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        font-weight: 800;
+        margin-top: 10px;
+        
+    }
+    
+    .produto button{
+        height: 45px;
+        width: 90%;
+        margin-bottom: 50px;
+        background-color: #031833;
+        color:#FFFFFF;
+        font-size:1rem ;
+        text-transform: uppercase;
+    }
+
+
+
+    .cadastroTexto h3{
+        font-size:0.7rem;
+    }
+    .cadastroTexto h4{
+        font-size: 0.7rem;
+    }
+    .logo2{
+        height:10vw ;
+    }
+    .login-BG h3{
+        font-size:0.7rem;
+    }
+
+    /* Pagina de login  */
+
+.login-BG{
+    
+    height: 500px;
+    color: #FFFFFF;
+    background-color: #0A4FA9;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 2%;
+    padding: 5% 20px;
+
+}
+.logar{
+    height: 40px;
+    width: 70vw;
+    margin-top: 2vw;
+}
+.password{
+    height: 40px;
+    margin-top: 0.5vw;
+    width: 70vw;
+}
+
+.bt-logar{
+    display: flex;
+    height: 50px;
+    width: 40vw;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50%;
+ 
+}
+.conteudo-login input{
+    font-size: 0.5rem;
+}
+}
+@media screen and (max-width:200px) {
+    .logo{
+        height: 13vw;
+       
+    }
+    .conteudo-banner1{
+        height:100px;
+        width:80vw ;
+        
+        
+    }
+    .conteudo-banner1 h1{
+        font-size:1rem;
+       
+    }
+    .conteudo-banner1 p{
+        margin:0 auto;
+        font-size:0.4rem;
+           
+    }
+
+    .cadastroTexto h3{
+        font-size:0.5rem;
+    }
+    .cadastroTexto h4{
+        font-size: 0.5rem;
+    }
+    .logo2{
+        height:10vw ;
+    }
+
+}
+
+@media screen and (max-width:180px) {
+    .container-grid{
+        width: 100vw;
+    }
+    .conta img{
+        width: 20vw;
+    }
+   .icone-menu{
+    height: 13vw;
+   }
+
+   .btn-primary{
+    height: 50px;
+    width: 90vw;
+    font-size: 0.5rem;
+    }
+
+
+
+
+   .logo{
+    height: 15vw;
+   
+    }
+ 
+
+    footer{
+        font-size: 0.3rem;
+    }
+    .sociais p{
+        margin-left: 4vh;
+    }
+    .sociais img{
+        margin:10px 1vh;
+        height: 30px;
+    }
+
+    .cadastroTexto h3{
+        font-size:0.4rem;
+    }
+    .cadastroTexto h4{
+        font-size: 0.4rem;
+    }
+    .logo2{
+        height:10vw ;
+    }
+     
+    
+
+
+    .login-BG{
+    
+        height: 400px;
+        color: #FFFFFF;
+        background-color: #0A4FA9;
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 2%;
+        padding: 5% 20px;
+    
+    }
+    .bt-logar{
+        display: flex;
+        height: 50px;
+        width: 40vw;
+        margin-top: 20px;
+        font-size: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:50%;
+     
+    }
+
+ }
+}

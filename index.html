@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous" defer></script>
+    <script src="./js/jquery-3.6.0.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <title>Game Mania</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-grid cabecalho">
+
+        <a href="./index.html"><img class="logo" alt="Logotipo Game Mania" src="./assets/img/logobranco.png"/></a>
+
+        <a  href="#"><img class="icone-menu" id="idicone-menu" src="./assets/img/menubarras.png" alt="Ícone do menu de barras"></a>
+
+        <input class="busca1" placeholder="Busque aqui o seu Produto " type="search"/>
+
+        <div class="container-grid conta">
+          <a id="img-login" href="./login.html"><img src="./assets/img/user2.png" alt="Conta"/></a>
+          <a href="#"><img src="./assets/img/cesta.png" alt="Cesta" /></a>
+        </div>
+      </div>
+
+      <div class="container-grid menu" id="menu">
+          <input class="busca2" placeholder="Busque aqui o seu Produto " type="search"/>
+          <a onclick="mostarMenu()" href="#"><img class="icone-menu2" id="icone-menu2" src="./assets/img/menubarras.png" id="idicone-menu2" alt="Ícone do menu de barras"></a>
+  
+          <nav id="links">
+          <a href="#" class="item-menu">Celulares</a>
+          <a href="#" class="item-menu">Pc Gamer</a>
+          <a href="#" class="item-menu">Computador</a>
+          <a href="#" class="item-menu">Nootebook</a>
+          <a href="#" class="item-menu">Periféricos</a>
+          <a href="#" class="item-menu">Consoles</a>
+          <a href="#" class="item-menu">Jogos</a>
+          </nav>
+      </div>
+      
+    </header>
+
+    <section class="banner">
+      
+        
+      <div class="container container-banner">
+        
+        <div class="conteudo-banner1">
+          <h1>Game Mania</h1>
+          <p>Essa semana com 35% off em tecnologia!</p>
+        </div>
+
+
+ 
+        <a href=""><button type="button" class="btn btn-primary">Aproveite</button></a>
+        
+        
+      </div>
+      
+    </section>
+
+    <section class="container-grid slide-carrosel">
+
+      
+      <div id="idslide-carrosel">
+        
+        
+        <div class="circulo c1">
+          <a href="#">
+            <img src="./assets/img/circuloconsole.png" alt="Console" />
+            <h2>Consoles</h2>
+          </a>
+        </div>
+      
+
+      
+        <div class="circulo c2">
+          <a href="#"><img src="./assets/img/circuloipad.png" alt="Tablets" />
+         <h2>Tablets</h2></a>
+        </div>
+        
+        
+        <div class="circulo c3">
+          <a href="#"><img src="./assets/img/circuloiphone.png" alt="Celular" />
+          <h2>Celular</h2></a>
+        </div>
+
+        <div class="circulo c4">
+          <a href="#"><img src="./assets/img/circulogames.png" alt="Games" />
+          <h2>Games</h2></a>
+        </div>
+
+
+        <div class="circulo c1">
+          <a href="#"><img src="./assets/img/circuloconsole.png" alt="Console" />
+            <h2>Consoles</h2></a>
+        </div>
+      
+
+      
+        <div class="circulo c2">
+          <a href="#"><img src="./assets/img/circuloipad.png" alt="Tablets" />
+         <h2>Tablets</h2></a>
+        </div>
+        
+        
+        <div class="circulo c3">
+          <a href="#"><img src="./assets/img/circuloiphone.png" alt="Celular" />
+          <h2>Celular</h2></a>
+        </div>
+
+        <div class="circulo c4">
+          <a href="#"><img src="./assets/img/circulogames.png" alt="Games" />
+          <h2>Games</h2></a>
+        </div>
+
+
+        <div class="circulo c1">
+          <a href="#"><img src="./assets/img/circuloconsole.png" alt="Console" />
+            <h2>Consoles</h2></a>
+        </div>
+      
+
+      
+        <div class="circulo c2">
+          <a href="#"><img src="./assets/img/circuloipad.png" alt="Tablets" />
+         <h2>Tablets</h2></a>
+        </div>
+        
+        
+        <div class="circulo c3">
+          <a href="#"><img src="./assets/img/circuloiphone.png" alt="Celular" />
+          <h2>Celular</h2></a>
+        </div>
+
+        <div class="circulo c4">
+          <a href="#"><img src="./assets/img/circulogames.png" alt="Games" />
+          <h2>Games</h2></a>
+        </div>
+
+        
+    </div>
+    </section>
+
+
+
+
+
+    <section class="container-grid slides-retangulos">
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide slide-retangulo-1" data-bs-ride="carousel">
+     
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <a href="#"><img src="./assets/img/perifericosmobile.jpg" alt="Periféricos" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+            
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <a href="#"><img src="./assets/img/bannergamemaniamobile.png" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        
+
+          
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+
+
+ 
+    </section>
+
+
+
+
+
+
+
+
+    <section class="container-grid produtos-BG">
+      <h2>As ofertas mais vendidas do mês</h2>
+
+      <section class="produtos">
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/notebook2.jpg" alt="" />
+          </a>
+          <div div class="bgimage">
+            <h1>Notebook Gamer</h1>
+            <p>R$5999,00</p>
+          </div>
+          <a href="#" class="lk-comprar">
+            <button class="bt-compra">Comprar</button>
+          </a>
+        </div>
+
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/pcGamer.png" alt="" />
+          </a>
+          <div class="bgimage">
+            <h1>PC Gamer</h1>
+            <p>R$8999,00</p>
+          </div>
+          <a href="#"><button class="bt-compra">Comprar</button></a>
+        </div>
+
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/iphone.jpg" alt="" />
+          </a>
+          <div class="bgimage">
+            <h1>Iphone</h1>
+            <p>R$7999,00</p>
+          </div>
+          <a href="#"><button class="bt-compra">Comprar</button></a>
+        </div>
+
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/celular.jpg" alt=""/>
+          </a>
+          <div class="bgimage">
+            <h1>Celular Samsung</h1>
+            <p>R$2999,00</p>
+          </div>
+          <a href="#"><button class="bt-compra">Comprar</button></a>
+        </div>
+
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/notebook2.jpg" alt="" />
+          </a>
+          <div div class="bgimage">
+            <h1>Notebook Gamer</h1>
+            <p>R$5999,00</p>
+          </div>
+          <a href="#" class="lk-comprar">
+            <button class="bt-compra">Comprar</button>
+          </a>
+        </div>
+
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/pcGamer.png" alt="" />
+          </a>
+          <div class="bgimage">
+            <h1>PC Gamer</h1>
+            <p>R$8999,00</p>
+          </div>
+          <a href="#"><button class="bt-compra">Comprar</button></a>
+        </div>
+
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/iphone.jpg" alt="" />
+          </a>
+          <div class="bgimage">
+            <h1>Iphone</h1>
+            <p>R$7999,00</p>
+          </div>
+          <a href="#"><button class="bt-compra">Comprar</button></a>
+        </div>
+
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/celular.jpg" alt=""/>
+          </a>
+          <div class="bgimage">
+            <h1>Celular Samsung</h1>
+            <p>R$2999,00</p>
+          </div>
+          <a href="#"><button class="bt-compra">Comprar</button></a>
+        </div>
+
+
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/notebook2.jpg" alt="" />
+          </a>
+          <div div class="bgimage">
+            <h1>Notebook Gamer</h1>
+            <p>R$5999,00</p>
+          </div>
+          <a href="#" class="lk-comprar">
+            <button class="bt-compra">Comprar</button>
+          </a>
+        </div>
+
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/pcGamer.png" alt="" />
+          </a>
+          <div class="bgimage">
+            <h1>PC Gamer</h1>
+            <p>R$8999,00</p>
+          </div>
+          <a href="#"><button class="bt-compra">Comprar</button></a>
+        </div>
+
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/iphone.jpg" alt="" />
+          </a>
+          <div class="bgimage">
+            <h1>Iphone</h1>
+            <p>R$7999,00</p>
+          </div>
+          <a href="#"><button class="bt-compra">Comprar</button></a>
+        </div>
+
+        <div class="produto">
+          <a href="#">
+            <img src="./assets/img/celular.jpg" alt=""/>
+          </a>
+          <div class="bgimage">
+            <h1>Celular Samsung</h1>
+            <p>R$2999,00</p>
+          </div>
+          <a href="#"><button class="bt-compra">Comprar</button></a>
+        </div>
+
+
+
+
+       
+      </section>
+    </section>
+   
+
+    <footer>
+      <div class="container-grid ft">
+        <div class="endereco">
+          <p>Endereço: Rua Akira , 23 - Rio de Janeiro, RJ</p>
+          <p>Contato: (21) 9999-9999</p>
+          <p>E-mail:contato@gamemania.com</p>
+          <p>CNPJ:00.000.000/0000-00</p>
+        </div>
+
+        <div class="sociais">
+          <p>Redes Sociais</p>
+          <a href="#"><img src="./assets/img/insta.png" alt="" /></a>
+          <a href="#"><img src="./assets/img/face.png" alt="" /></a>
+          <a href="#"><img src="./assets/img/zap.png" alt="" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
