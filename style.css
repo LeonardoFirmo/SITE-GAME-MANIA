@@ -90,7 +90,7 @@ margin-right: 3vw;
 .menu{
     display: flex;
     height: 90px;
-    padding: 0 50%;
+    width: 100%;
     background-color: #0B2649;
     justify-content:center;
     align-items: center;
@@ -669,7 +669,7 @@ footer{
  
 }
 .conteudo-login input{
-    font-size: 0.5rem;
+    /* font-size: 0.5rem; */
 }
 
 @media screen and (max-width:1000px) {
@@ -691,6 +691,7 @@ footer{
         display: none;
         position: absolute;
         padding: 20px;
+        width: 30vw;
         top: 100%;
         right: 0px;
         /* order:-1; */
@@ -841,6 +842,7 @@ footer{
 
     #links{
         display: none;
+        width: 40vw;
     }
     .busca1{
         display: none;
@@ -996,6 +998,7 @@ footer{
   
     #links{
         background-color: #0F71F2;
+        width: 60vw;
         border:solid 1px black;
         border-end-end-radius: 10%;
         border-bottom-left-radius: 10%;
@@ -1270,6 +1273,18 @@ footer{
 .conteudo-login input{
     font-size: 0.5rem;
 }
+}
+
+
+@media screen and (max-width:260px) {
+    #links{
+        width:100vw;
+        
+
+    }
+    #links a {
+        font-size: 0.8rem;
+    }
 }
 @media screen and (max-width:200px) {
     .logo{
